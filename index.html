@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto RGB</title>
+    <script defer src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <p>
+                <input value="0" oninput="atualizar()" id="r" type="range" max="255" min="0">
+                <input class="text" value="0" type="text" readonly>
+            </p>
+            <p>
+                <input value="0" oninput="atualizar()" id="g" type="range" max="255" min="0">
+                <input class="text" value="0" type="text" readonly>
+            </p>
+            <p>
+                <input value="0" oninput="atualizar()" id="b" type="range" max="255" min="0">
+                <input class="text" value="0" type="text" readonly>
+            </p>
+            <div id="rgb"></div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    width: 40px;
+    cursor: initial;
+}
+
+.text:focus{
+    outline: none;
+}
+
+#rgb{
+    margin: 0 auto;
+    display: flex;
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+#r{
+    accent-color: rgb(255, 30, 0);
+}
+
+#g{
+    accent-color: green;
+}
+
+#b{
+    accent-color: blue;
+}
